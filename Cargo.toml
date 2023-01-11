@@ -6,3 +6,11 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+next-binding = { git = "https://github.com/vercel/turbo.git", rev = "782143593280ed51dbd7b72dd86ebbd84d8e63d8", features = [
+  "__swc_core",
+  "__swc_core_next_core",
+  "__swc_transform_styled_jsx",
+  "__swc_transform_emotion",
+  "__swc_transform_styled_components",
+  "__swc_transform_modularize_imports",
+] }
