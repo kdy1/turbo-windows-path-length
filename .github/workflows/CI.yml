@@ -1,0 +1,9 @@
+name: Check
+on:
+  - push
+
+
+jobs:
+  check:
+    name: Check
+    runs-on: windows-latest
