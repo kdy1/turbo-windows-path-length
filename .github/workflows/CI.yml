@@ -7,3 +7,5 @@ jobs:
   check:
     name: Check
     runs-on: windows-latest
+    steps:
+      - run: cargo check
